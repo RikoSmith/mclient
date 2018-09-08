@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { Navbar } from "react-bootstrap";
+import React, { Component } from 'react';
+import { Navbar } from 'react-bootstrap';
 
-import HeaderLinks from "./HeaderLinks.jsx";
+import HeaderLinks from './HeaderLinks.jsx';
 
-import dashboardRoutes from "routes/dashboard.jsx";
+import dashboardRoutes from '../../routes/dashboard.jsx';
 
 class Header extends Component {
   constructor(props) {
@@ -20,12 +20,12 @@ class Header extends Component {
       });
     }
     e.preventDefault();
-    document.documentElement.classList.toggle("nav-open");
-    var node = document.createElement("div");
-    node.id = "bodyClick";
+    document.documentElement.classList.toggle('nav-open');
+    var node = document.createElement('div');
+    node.id = 'bodyClick';
     node.onclick = function() {
       this.parentElement.removeChild(this);
-      document.documentElement.classList.toggle("nav-open");
+      document.documentElement.classList.toggle('nav-open');
     };
     document.body.appendChild(node);
   }

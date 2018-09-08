@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
-import HeaderLinks from "../Header/HeaderLinks.jsx";
+import HeaderLinks from '../Header/HeaderLinks.jsx';
 
-import imagine from "assets/img/sidebar-3.jpg";
-import logo from "assets/img/reactlogo.png";
+import imagine from '../../assets/img/sidebar-3.jpg';
+import logo from '../../assets/img/reactlogo.png';
 
-import dashboardRoutes from "routes/dashboard.jsx";
+import dashboardRoutes from '../../routes/dashboard.jsx';
 
 class Sidebar extends Component {
   constructor(props) {
@@ -16,18 +16,18 @@ class Sidebar extends Component {
     };
   }
   activeRoute(routeName) {
-    return this.props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
+    return this.props.location.pathname.indexOf(routeName) > -1 ? 'active' : '';
   }
   updateDimensions() {
     this.setState({ width: window.innerWidth });
   }
   componentDidMount() {
     this.updateDimensions();
-    window.addEventListener("resize", this.updateDimensions.bind(this));
+    window.addEventListener('resize', this.updateDimensions.bind(this));
   }
   render() {
     const sidebarBackground = {
-      backgroundImage: "url(" + imagine + ")"
+      backgroundImage: 'url(' + imagine + ')'
     };
     return (
       <div
@@ -62,7 +62,7 @@ class Sidebar extends Component {
                   <li
                     className={
                       prop.upgrade
-                        ? "active active-pro"
+                        ? 'active active-pro'
                         : this.activeRoute(prop.path)
                     }
                     key={key}

@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Grid, Row, Col } from "react-bootstrap";
+import React, { Component } from 'react';
+import { Grid, Row, Col } from 'react-bootstrap';
 
-import Card from "components/Card/Card.jsx";
+import Card from '../../components/Card/Card.jsx';
 
 class Typography extends Component {
   render() {
@@ -18,7 +18,7 @@ class Typography extends Component {
                     <div className="typo-line">
                       <h1>
                         <p className="category">Header 1</p>Light Bootstrap
-                        Table Heading{" "}
+                        Table Heading{' '}
                       </h1>
                     </div>
 
@@ -112,7 +112,7 @@ class Typography extends Component {
                       <h2>
                         <p className="category">Small Tag</p>Header with small
                         subtitle <br />
-                        <small>".small" is a tag for the headers</small>{" "}
+                        <small>".small" is a tag for the headers</small>{' '}
                       </h2>
                     </div>
                   </div>
