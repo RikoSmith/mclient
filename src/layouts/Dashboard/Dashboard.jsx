@@ -111,6 +111,7 @@ class Dashboard extends Component {
               if (prop.name === 'Notifications')
                 return (
                   <Route
+                    exact
                     path={prop.path}
                     key={key}
                     render={routeProps => (
@@ -124,7 +125,12 @@ class Dashboard extends Component {
               if (prop.redirect)
                 return <Redirect from={prop.path} to={prop.to} key={key} />;
               return (
-                <Route path={prop.path} component={prop.component} key={key} />
+                <Route
+                  exact
+                  path={prop.path}
+                  component={prop.component}
+                  key={key}
+                />
               );
             })}
           </Switch>

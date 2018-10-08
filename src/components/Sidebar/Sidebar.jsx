@@ -16,7 +16,14 @@ class Sidebar extends Component {
     };
   }
   activeRoute(routeName) {
-    return this.props.location.pathname.indexOf(routeName) > -1 ? 'active' : '';
+    if (
+      this.props.location.pathname.indexOf(routeName) > -1 &&
+      this.props.location.pathname.length === routeName.length
+    ) {
+      return 'active';
+    } else {
+      return ' ';
+    }
   }
   updateDimensions() {
     this.setState({ width: window.innerWidth });
@@ -50,7 +57,7 @@ class Sidebar extends Component {
             href="https://www.creative-tim.com"
             className="simple-text logo-normal"
           >
-            Creative Tim
+            mHealth
           </a>
         </div>
         <div className="sidebar-wrapper">

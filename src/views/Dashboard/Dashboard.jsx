@@ -36,18 +36,18 @@ class Dashboard extends Component {
           <Row>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-server text-warning" />}
-                statsText="Capacity"
-                statsValue="105GB"
+                bigIcon={<i className="pe-7s-gym text-warning" />}
+                statsText="Weight"
+                statsValue="65 KG"
                 statsIcon={<i className="fa fa-refresh" />}
                 statsIconText="Updated now"
               />
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-wallet text-success" />}
-                statsText="Revenue"
-                statsValue="$1,345"
+                bigIcon={<i className="pe-7s-smile text-success" />}
+                statsText="Mood"
+                statsValue="Normal"
                 statsIcon={<i className="fa fa-calendar-o" />}
                 statsIconText="Last day"
               />
@@ -55,17 +55,17 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-graph1 text-danger" />}
-                statsText="Errors"
-                statsValue="23"
+                statsText="Heartbeat"
+                statsValue="72 BPM"
                 statsIcon={<i className="fa fa-clock-o" />}
                 statsIconText="In the last hour"
               />
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="fa fa-twitter text-info" />}
-                statsText="Followers"
-                statsValue="+45"
+                bigIcon={<i className="pe-7s-note2 text-info" />}
+                statsText="To do items"
+                statsValue="7 items"
                 statsIcon={<i className="fa fa-refresh" />}
                 statsIconText="Updated now"
               />
@@ -76,7 +76,7 @@ class Dashboard extends Component {
               <Card
                 statsIcon="fa fa-history"
                 id="chartHours"
-                title="Users Behavior"
+                title="Heartbeat Chart"
                 category="24 Hours performance"
                 stats="Updated 3 minutes ago"
                 content={
@@ -97,7 +97,7 @@ class Dashboard extends Component {
             <Col md={4}>
               <Card
                 statsIcon="fa fa-clock-o"
-                title="Email Statistics"
+                title="Activity Pie Chart"
                 category="Last Campaign Performance"
                 stats="Campaign sent 2 days ago"
                 content={
@@ -119,7 +119,7 @@ class Dashboard extends Component {
             <Col md={6}>
               <Card
                 id="chartActivity"
-                title="2014 Sales"
+                title="Another Bar Chart"
                 category="All products including Taxes"
                 stats="Data information certified"
                 statsIcon="fa fa-check"
@@ -141,7 +141,7 @@ class Dashboard extends Component {
 
             <Col md={6}>
               <Card
-                title="Tasks"
+                title="TO DO List"
                 category="Backend development"
                 stats="Updated 3 minutes ago"
                 statsIcon="fa fa-history"
