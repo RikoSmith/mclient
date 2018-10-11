@@ -502,3 +502,29 @@
 .table-upgrade td:nth-child(3){
     text-align: center;
 }
+
+/*Custom code*/
+.masthead img.mb-5 {
+    width: 30%;
+  }
+  
+  .bg-primary-opaque {
+    background-color: #1ac8c00d !important
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: -50;
+    top: 50;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  header .container {
+    position: relative;
+  }
+  
+  section.portfolio, section#contact {
+    background-color: #fff;
+  }
