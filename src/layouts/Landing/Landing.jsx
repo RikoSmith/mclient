@@ -56,7 +56,7 @@ class Landing extends Component {
         >
           <div className="container">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">
-              Start Bootstrap
+              Senoir Project
             </a>
             <button
               className="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded"
@@ -77,7 +77,7 @@ class Landing extends Component {
                     className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                     href="#portfolio"
                   >
-                    Portfolio
+                    Features
                   </a>
                 </li>
                 <li className="nav-item mx-0 mx-lg-1">
@@ -96,24 +96,35 @@ class Landing extends Component {
                     Contact
                   </a>
                 </li>
+                <li className="nav-item mx-0 mx-lg-1">
+                  <a
+                    className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                    href="/dashboard"
+                  >
+                    Dashboard
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </nav>
 
         {/* Header */}
-        <header className="masthead bg-primary text-white text-center">
+        <header className="masthead bg-primary-opaque text-white text-center">
           <div className="container">
             <img
               className="img-fluid mb-5 d-block mx-auto"
-              src="img/profile.png"
+              src="img/logo.png"
               alt=""
             />
-            <h1 className="text-uppercase mb-0">Start Bootstrap</h1>
+            <h1 className="text-uppercase mb-0">Mobile Health Platform</h1>
             <hr className="star-light" />
             <h2 className="font-weight-light mb-0">
-              Web Developer - Graphic Artist - User Experience Designer
+              Mark Sterling - Dias Issa - Askar Kossymzhan - Raiymbek Mustazhapov
             </h2>
+            <video autoPlay muted loop id="myVideo">
+             <source src="bg.mp4" type="video/mp4" />
+            </video>
           </div>
         </header>
 
@@ -121,7 +132,7 @@ class Landing extends Component {
         <section className="portfolio" id="portfolio">
           <div className="container">
             <h2 className="text-center text-uppercase text-secondary mb-0">
-              Portfolio
+              Features
             </h2>
             <hr className="star-dark mb-5" />
             <div className="row">
@@ -137,7 +148,7 @@ class Landing extends Component {
                   </div>
                   <img
                     className="img-fluid"
-                    src="img/portfolio/cabin.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                 </a>
@@ -154,7 +165,7 @@ class Landing extends Component {
                   </div>
                   <img
                     className="img-fluid"
-                    src="img/portfolio/cake.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                 </a>
@@ -171,7 +182,7 @@ class Landing extends Component {
                   </div>
                   <img
                     className="img-fluid"
-                    src="img/portfolio/circus.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                 </a>
@@ -188,7 +199,7 @@ class Landing extends Component {
                   </div>
                   <img
                     className="img-fluid"
-                    src="img/portfolio/game.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                 </a>
@@ -205,7 +216,7 @@ class Landing extends Component {
                   </div>
                   <img
                     className="img-fluid"
-                    src="img/portfolio/safe.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                 </a>
@@ -222,7 +233,7 @@ class Landing extends Component {
                   </div>
                   <img
                     className="img-fluid"
-                    src="img/portfolio/submarine.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                 </a>
@@ -239,18 +250,12 @@ class Landing extends Component {
             <div className="row">
               <div className="col-lg-4 ml-auto">
                 <p className="lead">
-                  Freelancer is a free bootstrap theme created by Start
-                  Bootstrap. The download includes the complete source files
-                  including HTML, CSS, and JavaScript as well as optional LESS
-                  stylesheets for easy customization.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum aliquam dolor et posuere. Donec tortor tortor, ullamcorper in risus id, ultricies sagittis purus. Nunc hendrerit maximus nunc id commodo. Phasellus iaculis tortor vel tincidunt congue. Duis congue magna nec ullamcorper ullamcorper. Ut tempus condimentum ex, at ullamcorper lacus condimentum id. Aliquam erat volutpat. Vestibulum aliquet eu sem at varius. Morbi vel maximus nibh. Fusce sed felis at quam venenatis venenatis. Praesent accumsan finibus risus quis sollicitudin. Cras pharetra leo nibh, ut aliquam augue blandit a.
                 </p>
               </div>
               <div className="col-lg-4 mr-auto">
                 <p className="lead">
-                  Whether you're a student looking to showcase your work, a
-                  professional looking to attract clients, or a graphic artist
-                  looking to share your projects, this template is the perfect
-                  starting point!
+                Etiam dictum ligula nibh, sed auctor ligula ultricies id. Quisque tristique elit quis eros ullamcorper aliquet. Fusce viverra venenatis eros, ut mollis dolor mattis nec. Morbi in malesuada massa. Quisque egestas convallis ex, non sagittis mauris finibus vel. Morbi rhoncus, risus vel tempus pretium, sapien odio aliquam ante, in condimentum leo massa et velit. Nunc vel ligula eu erat aliquam condimentum. Nulla facilisi. Donec sit amet est pulvinar, ultricies ante ac, volutpat nulla.
                 </p>
               </div>
             </div>
@@ -267,7 +272,7 @@ class Landing extends Component {
         <section id="contact">
           <div className="container">
             <h2 className="text-center text-uppercase text-secondary mb-0">
-              Contact Me
+              Contact Us
             </h2>
             <hr className="star-dark mb-5" />
             <div className="row">
@@ -359,9 +364,9 @@ class Landing extends Component {
               <div className="col-md-4 mb-5 mb-lg-0">
                 <h4 className="text-uppercase mb-4">Location</h4>
                 <p className="lead mb-0">
-                  2215 John Daniel Drive
+                  Astana, Kabanbay Batyr 53
                   <br />
-                  >Clark, MO 65243
+                  Nazarbayev University
                 </p>
               </div>
               <div className="col-md-4 mb-5 mb-lg-0">
@@ -410,11 +415,9 @@ class Landing extends Component {
                 </ul>
               </div>
               <div className="col-md-4">
-                <h4 className="text-uppercase mb-4">About Freelancer</h4>
+                <h4 className="text-uppercase mb-4">Credits</h4>
                 <p className="lead mb-0">
-                  Freelance is a free to use, open source Bootstrap theme
-                  created by
-                  <a href="http://startbootstrap.com">Start Bootstrap</a>.
+                  Open-source template provided by @startbootstrap
                 </p>
               </div>
             </div>
@@ -423,7 +426,7 @@ class Landing extends Component {
 
         <div className="copyright py-4 text-center text-white">
           <div className="container">
-            <small>Copyright &copy; Your Website 2018</small>
+            <small>Copyright &copy; mHealth LLC 2018</small>
           </div>
         </div>
 
@@ -451,12 +454,12 @@ class Landing extends Component {
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <h2 className="text-secondary text-uppercase mb-0">
-                    Project Name
+                    Feature Name
                   </h2>
                   <hr className="star-dark mb-5" />
                   <img
                     className="img-fluid mb-5"
-                    src="img/portfolio/cabin.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                   <p className="mb-5">
@@ -471,7 +474,7 @@ class Landing extends Component {
                     href="#"
                   >
                     <i className="fa fa-close" />
-                    Close Project
+                    Close
                   </a>
                 </div>
               </div>
@@ -491,12 +494,12 @@ class Landing extends Component {
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <h2 className="text-secondary text-uppercase mb-0">
-                    Project Name
+                    Feature Name
                   </h2>
                   <hr className="star-dark mb-5" />
                   <img
                     className="img-fluid mb-5"
-                    src="img/portfolio/cake.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                   <p className="mb-5">
@@ -511,7 +514,7 @@ class Landing extends Component {
                     href="#"
                   >
                     <i className="fa fa-close" />
-                    Close Project
+                    Close
                   </a>
                 </div>
               </div>
@@ -531,12 +534,12 @@ class Landing extends Component {
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <h2 className="text-secondary text-uppercase mb-0">
-                    Project Name
+                    Feature Name
                   </h2>
                   <hr className="star-dark mb-5" />
                   <img
                     className="img-fluid mb-5"
-                    src="img/portfolio/circus.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                   <p className="mb-5">
@@ -551,7 +554,7 @@ class Landing extends Component {
                     href="#"
                   >
                     <i className="fa fa-close" />
-                    Close Project
+                    Close
                   </a>
                 </div>
               </div>
@@ -571,12 +574,12 @@ class Landing extends Component {
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <h2 className="text-secondary text-uppercase mb-0">
-                    Project Name
+                    Feature Name
                   </h2>
                   <hr className="star-dark mb-5" />
                   <img
                     className="img-fluid mb-5"
-                    src="img/portfolio/game.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                   <p className="mb-5">
@@ -591,7 +594,7 @@ class Landing extends Component {
                     href="#"
                   >
                     <i className="fa fa-close" />
-                    Close Project
+                    Close
                   </a>
                 </div>
               </div>
@@ -611,12 +614,12 @@ class Landing extends Component {
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <h2 className="text-secondary text-uppercase mb-0">
-                    Project Name
+                    Feature Name
                   </h2>
                   <hr className="star-dark mb-5" />
                   <img
                     className="img-fluid mb-5"
-                    src="img/portfolio/safe.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                   <p className="mb-5">
@@ -631,7 +634,7 @@ class Landing extends Component {
                     href="#"
                   >
                     <i className="fa fa-close" />
-                    Close Project
+                    Close
                   </a>
                 </div>
               </div>
@@ -651,12 +654,12 @@ class Landing extends Component {
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <h2 className="text-secondary text-uppercase mb-0">
-                    Project Name
+                    Feature Name
                   </h2>
                   <hr className="star-dark mb-5" />
                   <img
                     className="img-fluid mb-5"
-                    src="img/portfolio/submarine.png"
+                    src="https://via.placeholder.com/600x450"
                     alt=""
                   />
                   <p className="mb-5">
@@ -671,7 +674,7 @@ class Landing extends Component {
                     href="#"
                   >
                     <i className="fa fa-close" />
-                    Close Project
+                    Close
                   </a>
                 </div>
               </div>

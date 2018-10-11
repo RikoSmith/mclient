@@ -5,8 +5,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Dashboard from './layouts/Dashboard/Dashboard.jsx';
 import Landing from './layouts/Landing/Landing.jsx';
 
-import indexRoutes from './routes/index.jsx';
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/animate.min.css";
 import "./assets/sass/light-bootstrap-dashboard.css?v=1.2.0";
